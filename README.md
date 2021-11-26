@@ -3,53 +3,8 @@ Laboratorio di Programmazione di Rete
 
 
        Luca Lombardo - Mat. 546688
-Indice
-
-
-
-
-1 Introduzione                                                                  2
-
-  1.1   Il progetto . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    2
-
-
-2 Il Server                                                                     3
-
-  2.1   ServerMain . . . . . . . . . . . . . . . . . . . . . . . . . . . .       3
-
-  2.2   ServerRemote . . . . . . . . . . . . . . . . . . . . . . . . . . .       4
-
-  2.3   ServerThread . . . . . . . . . . . . . . . . . . . . . . . . . . .       5
-
-  2.4   Multi-threading e concorrenza lato Server . . . . . . . . . . .          5
-
-
-3 Il Client                                                                     7
-
-  3.1   ClientMain . . . . . . . . . . . . . . . . . . . . . . . . . . . .       7
-
-  3.2   ClientRemote . . . . . . . . . . . . . . . . . . . . . . . . . . .       7
-
-  3.3   ChatThread . . . . . . . . . . . . . . . . . . . . . . . . . . . .       8
-
-  3.4   Multi-threading e concorrenza lato Client . . . . . . . . . . .          8
-
-
-4 Istruzioni                                                                    10
-
-  4.1   Compilazione . . . . . . . . . . . . . . . . . . . . . . . . . . .      10
-
-  4.2   Esecuzione . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    11
-
-  4.3   Comandi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     11
-
-
-
-
                                        
 Introduzione
-
-
 
 1.1     Il progetto
 Il programma realizzato consiste in uno strumento con interfaccia a linea di
