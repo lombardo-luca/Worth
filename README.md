@@ -382,42 +382,56 @@ il comando help direttamente all’interno del programma.
                                       
  register nickUtente password
   Registra un nuovo utente al servizio.
+  
  login nickUtente password
   Effettua il login per accedere al servizio.
+  
  logout nickUtente
   Effettua il logout dell’utente dal servizio.
+  
  listUsers
   Stampa a schermo la lista degli utenti registrati al servizio e il loro
   stato (online/offline).
+  
  listOnlineUsers
   Stampa a schermo la lista degli utenti online in questo momento.
+  
  listProjects
   Stampa a schermo la lista dei progetti dei quali si è membri.
+  
  createProject projectName
   Crea un nuovo progetto.
+  
  addMember projectName nickUtente
   Aggiunge un utente a un progetto.
+  
  showMembers projectName
   Stampa a schermo la lista dei membri di un progetto.
+  
  showCards projectName
   Stampa a schermo la lista di card associate ad un progetto.
+  
  showCard projectName cardName
   Stampa a schermo le informazioni (nome, descrizione, lista) di una
   card associata a un progetto.
+  
  moveCard projectName cardName listaPartenza listaDestinazione
   Sposta una card di un progetto da una lista a un’altra.
+  
  getCardHistory projectName cardName
   Stampa a schermo la storia della card, ovvero la sequenza di sposta-
   menti da una lista a un’altra.
+  
  readChat projectName
   Stampa a schermo i messaggi della chat di un progetto.
+  
  sendChatMsg projectName messaggio
   Invia un messaggio alla chat di un progetto.
+  
  cancelProject projectName
   Cancella un progetto.
 
                                    
-     Luca Lombardo
-       Mat. 546688
-        29/11/2020
-
+     Luca Lombardo
+      Mat. 546688
+       29/11/2020
