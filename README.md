@@ -1,39 +1,22 @@
-Laboratorio di Programmazione di Rete
-             A.A. 2020/21
-
-
-       Luca Lombardo - Mat. 546688
+# Laboratorio di Programmazione di Rete
+## *A.A. 2020/21 - Luca Lombardo - Mat. 546688*
                                        
-Introduzione
+## 1. Introduzione
 
-1.1     Il progetto
-Il programma realizzato consiste in uno strumento con interfaccia a linea di
-comando per la gestione di progetti collaborativi, ispirato ad alcuni principi
-della metodologia Kanban. Esso è costituito da dodici file .java, di cui dieci
-classi e due interfacce:
-  1. la classe ServerMain contiene il metodo main del server. All’interno
-     della classe vengono creati il registro RMI e la ThreadPool di Server-
-     Thread;
-  2. la classe ServerRemote estende RemoteObject e contiene i metodi
-     remoti per la registrazione e le callBacks relative ai progetti;
-  3. la classe ServerThread implementa l’interfaccia Runnable e si occupa
-     di ricevere i comandi dal client, eseguirli e restituire i risultati;
-  4. la classe User è una struttura dati contenente nickname e password
-     di un utente;
-  5. la classe Project è una struttura dati contenente le informazioni su
-     un progetto (nome, indirizzo multicast, liste di card);
-  6. la classe Card è una struttura dati contenente le informazioni su una
-     card (nome, descrizione, sequenza di spostamenti tra liste);
-  7. la classe ClientMain contiene il metodo main del client e si occupa
-     di prendere da input i comandi dell’utente, inviarli al server e ricevere
-     i risultati;
-  8. la classe ClientRemote estende RemoteObject e contiene i metodi
-     remoti per la notifica delle callBacks;
-  9. la classe ChatThread implementa l’interfaccia Runnable e si occupa
-     della ricezione di messaggi sulla chat di un progetto;
- 10. la classe Message è una struttura dati contenente le informazioni di
-     un messaggio sulla chat (data, autore e testo).
+<details>###<summary> 1.1. Il progetto</summary>
+Il programma realizzato consiste in uno strumento con interfaccia a linea di comando per la gestione di progetti collaborativi, ispirato ad alcuni principi della metodologia Kanban. Esso è costituito da dodici file .java, di cui dieci classi e due interfacce:  
 
+1. la classe ServerMain contiene il metodo main del server. All’interno della classe vengono creati il registro RMI e la ThreadPool di Server-Thread;
+
+3. la classe ServerRemote estende RemoteObject e contiene i metodi remoti per la registrazione e le callBacks relative ai progetti;
+4. la classe ServerThread implementa l’interfaccia Runnable e si occupa di ricevere i comandi dal client, eseguirli e restituire i risultati;
+5. la classe User è una struttura dati contenente nickname e password di un utente;
+6. la classe Project è una struttura dati contenente le informazioni su un progetto (nome, indirizzo multicast, liste di card);
+7. la classe Card è una struttura dati contenente le informazioni su una card (nome, descrizione, sequenza di spostamenti tra liste);
+8. la classe ClientMain contiene il metodo main del client e si occupa di prendere da input i comandi dell’utente, inviarli al server e ricevere i risultati;
+9. la classe ClientRemote estende RemoteObject e contiene i metodi remoti per la notifica delle callBacks;
+10. la classe ChatThread implementa l’interfaccia Runnable e si occupa della ricezione di messaggi sulla chat di un progetto;
+11. la classe Message è una struttura dati contenente le informazioni di un messaggio sulla chat (data, autore e testo).</details>
 
                                       
 Il Server
