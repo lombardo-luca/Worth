@@ -2,7 +2,7 @@ name: Convert-PDF-to-Images
 
 on:
   workflow_dispatch:
-  
+
 jobs:
   convert_and_update_readme:
     runs-on: ubuntu-latest
@@ -14,9 +14,14 @@ jobs:
       - name: Install Poppler
         run: sudo apt-get install -y poppler-utils
 
+      - name: Check and Create Directory
+        run: |
+          if [ ! -d converted_images ]; then
+            mkdir converted_images
+          fi
+
       - name: Convert PDF to Images
         run: |
-          mkdir converted_images
           pdftoppm -jpeg -r 250 writeup.pdf converted_images/output
 
       - name: Update README
