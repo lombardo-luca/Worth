@@ -5,6 +5,7 @@
 
 <details>###<summary> 1.1. Il progetto</summary>
 Il programma realizzato consiste in uno strumento con interfaccia a linea di comando per la gestione di progetti collaborativi, ispirato ad alcuni principi della metodologia Kanban. Esso è costituito da dodici file .java, di cui dieci classi e due interfacce:  
+  
 1. la classe ServerMain contiene il metodo main del server. All’interno della classe vengono creati il registro RMI e la ThreadPool di Server-Thread;
 3. la classe ServerRemote estende RemoteObject e contiene i metodi remoti per la registrazione e le callBacks relative ai progetti;
 4. la classe ServerThread implementa l’interfaccia Runnable e si occupa di ricevere i comandi dal client, eseguirli e restituire i risultati;
