@@ -2,7 +2,7 @@ name: Convert-PDF-to-Images
 
 on:
   workflow_dispatch:
-
+  
 jobs:
   convert_and_update_readme:
     runs-on: ubuntu-latest
@@ -21,9 +21,9 @@ jobs:
 
       - name: Update README
         run: |
-          echo $'\n' >> README.md
+          echo "# Converted Images from PDF" > README.md
           for filename in converted_images/*.jpg; do \
-            echo "![image](${{ github.server_url }}/${{ github.repository }}/raw/${{ github.sha }}/converted_images/$(basename $filename)?raw=true)" >> README.md; \
+            echo "![image]($(basename $filename))" >> README.md; \
           done
 
       - name: Commit and Push Changes
