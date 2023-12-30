@@ -23,7 +23,7 @@ jobs:
         run: |
           echo $'\n' >> README.md
           for filename in converted_images/*.jpg; do \
-            echo '![image]('${{ github.server_url }}/${{ github.repository }}/raw/${{ github.sha }}/converted_images/'$(basename $filename)'?raw=true)' >> README.md; \
+            echo "![image](${{ github.server_url }}/${{ github.repository }}/raw/${{ github.sha }}/converted_images/$(basename $filename)?raw=true)" >> README.md; \
           done
 
       - name: Commit and Push Changes
