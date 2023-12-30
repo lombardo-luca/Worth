@@ -30,6 +30,10 @@ jobs:
     - name: Install Poppler
       run: sudo apt-get install -y poppler-utils
 
+      # Installa Ghostscript
+    - name: Install Ghostscript
+      run: sudo apt-get install -y ghostscript
+
     ## CONVERT THE ACTUAL IMAGES
     - name: Convert Writeup to Images
       uses: jruipinto/ImageMagick-action@v1
