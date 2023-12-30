@@ -28,7 +28,7 @@ jobs:
         run: |
           echo "# Converted Images from PDF" > README.md
           for filename in converted_images/*.jpg; do \
-            echo "![image]($(basename $filename))" >> README.md; \
+            echo "![image](./converted_images/$(basename $filename))" >> README.md; \
           done
 
       - name: Commit and Push Changes
