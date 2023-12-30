@@ -25,6 +25,11 @@ jobs:
         persist-credentials: false
         fetch-depth: 0
 
+  
+    # Installa il supporto PDF
+    - name: Install Poppler
+      run: sudo apt-get install -y poppler-utils
+
     ## CONVERT THE ACTUAL IMAGES
     - name: Convert Writeup to Images
       uses: jruipinto/ImageMagick-action@v1
