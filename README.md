@@ -417,3 +417,19 @@ il comando help direttamente all’interno del programma.
      Luca Lombardo
       Mat. 546688
        29/11/2020
+
+
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-01.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-02.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-03.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-04.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-05.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-06.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-07.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-08.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-09.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-10.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-11.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-12.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-13.jpg?raw=true)
+![image](https://github.com/lombardo-luca/Worth/raw/ce18cf17b49235a7e4083dab40fc2a394475f93c/converted_images/output-14.jpg?raw=true)
