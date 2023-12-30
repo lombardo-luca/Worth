@@ -26,7 +26,6 @@ jobs:
 
       - name: Update README
         run: |
-          echo "# Converted Images from PDF" > README.md
           for filename in converted_images/*.jpg; do \
             echo "![image](./converted_images/$(basename $filename))" >> README.md; \
           done
