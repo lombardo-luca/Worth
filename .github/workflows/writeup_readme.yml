@@ -2,12 +2,12 @@
 
 name: Writeup-Readme
 
-on:
+on: workflow_dispatch
   push:
     branches: 
       - 'master'
     paths:
-      - 'relazione.pdf'
+      - 'writeup.pdf'
       - '.README.md'
       - '.github/workflows/writeup_readme.yml'
 
