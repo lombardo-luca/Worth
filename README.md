@@ -1,4 +1,3 @@
-# Converted Images from PDF
 ![image](./converted_images/output-01.jpg)
 ![image](./converted_images/output-02.jpg)
 ![image](./converted_images/output-03.jpg)
